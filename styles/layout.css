@@ -1,0 +1,100 @@
+section,header,nav,article{
+    display: block;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 1em 10%;
+}
+header{
+    background: url(../images/background.jpg) no-repeat top right black;
+    height:auto;
+    border:.1em solid;
+    bottom-width: 0;
+}
+header nav{
+    border: .1em solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 25%;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left: .1em solid;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+article{
+    border: .1em solid;
+    border-top-width:0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+article img{
+    border: .1em solid;
+    outline: .1em solid;
+}
+
+header nav a.here:link,
+header nav a.here:active,
+header nav a.here:visited,
+header nav a.here:hover{
+    color:#eef;
+    background-color: #799;
+}
+
+#slideshow{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview{
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+#imagegallery li{
+    display: inline;
+    margin: 10px;
+}
+#imagegallery li img{
+    width: 150px;
+    height: 150px;
+}
+#photos article{
+    text-align: center;
+}
+#placeholder{
+    width: 600px;
+    height: 600px;
+}
+td{
+    padding: .5em 3em;
+}
+dl{
+    overflow: hidden;
+}
+dt{
+    float: left;
+}
+dd{
+    float: left;
+}
+label{
+    display: block;
+}
+fieldset{
+    border: 0;
+}
